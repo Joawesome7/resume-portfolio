@@ -1,0 +1,25 @@
+.skills {
+  height: 50vh;
+  width: 1519px;
+
+  /* border: 1px solid #AFB5AD; */
+  border-top: 1px solid #AFB5AD;
+
+  padding: 30px;
+}
+
+.skills h2 {
+  margin-top: 10px;
+  padding-left: 60px;
+  font-size: 30px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 30vh;
+
+  gap: 1rem;
+}

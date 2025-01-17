@@ -1,0 +1,51 @@
+dialog {
+  position: absolute;
+  /* top: 38%;
+  left: 36%; 
+  transform: translateY(-10%); */
+  padding: 40px;
+  min-width: 50vh;
+  margin: auto;
+}
+
+.input-group {
+  margin: 20px 0;
+  position: relative;
+}
+
+.input-group label {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 15px;
+  font-size: 16px;
+  pointer-events: none;
+  color: rgb(218, 223, 223);
+  padding: 0 5px;
+  transition: .5s;
+}
+
+.input-group input {
+  background-color: transparent;
+  border: solid 1.2px #AFB5AD;
+  width: 360px;
+  height: 60px;
+  color: #AFB5AD;
+  font-size: 16px;
+  padding: 0 15px;
+  outline: none;
+}
+
+input[type="number"] {
+  -webkit-appearance: none; 
+
+  -moz-appearance: textfield; 
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+  top: 0;
+  background: #181917;
+  font-size: 14px;
+}
+
