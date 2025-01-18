@@ -4,7 +4,7 @@
   text-align: center;
   /* border: 1px solid #AFB5AD; */
   border-bottom: 1px solid #AFB5AD;
-  min-width: 1519px;
+  max-width: 1519px;
 }
 
 .hero__title {

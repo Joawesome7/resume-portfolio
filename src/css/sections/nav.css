@@ -28,14 +28,14 @@ nav a:hover {
   color: #767D74;
 }
 
-.logo a {
+.header__logo a {
   text-decoration: none;
   font-size: 60px;
   font-weight: bold;
   color: #AFB5AD;
 }
 
-nav .contact-btn {
+nav .header__btn {
   border: 1px solid #5C625B;
   border-radius: 3px;
   padding: 7px;
@@ -48,8 +48,24 @@ nav .contact-btn {
   cursor: pointer;
 }
 
-nav .contact-btn:hover {
+nav .header__btn:hover {
   color: #212220;
   box-shadow: 0 0.5em 0.5em -0.4em;
   transform: translateY(-0.1em);
+}
+
+@media (max-width: 768px) {
+  .header__logo a {
+    font-size: 48px;
+  }
+  nav a,
+  nav .header__btn {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__logo a {
+    font-size: 40px;
+  }
 }

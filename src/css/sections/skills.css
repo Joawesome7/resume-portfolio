@@ -1,6 +1,6 @@
 .skills {
-  height: 50vh;
-  width: 1519px;
+  height: 50%;
+  min-width: 100%;
 
   /* border: 1px solid #AFB5AD; */
   border-top: 1px solid #AFB5AD;
@@ -22,4 +22,43 @@
   height: 30vh;
 
   gap: 1rem;
+}
+
+.wrapper article svg {
+  min-width: 70px;
+  min-height: 70px;
+}
+
+@media (max-width: 768px) {
+  .skills h2 {
+    margin-right: 80px;
+    text-align: center;
+  }
+  
+  .wrapper {
+    flex-wrap: wrap;
+  }
+
+
+  .wrapper article {
+    min-width: 50px;
+    min-height: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .skills h2 {
+    margin-right: 80px;
+    text-align: center;
+  }
+  
+  .wrapper {
+    flex-wrap: wrap;
+  }
+
+
+  .wrapper article {
+    min-width: 50px;
+    min-height: 50px;
+  }
 }
