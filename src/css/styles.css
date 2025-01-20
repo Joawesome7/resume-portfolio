@@ -6,6 +6,7 @@
 @import url("/src/css/sections/skills.css");
 @import url("/src/css/sections/contact.css");
 @import url("/src/css/sections/footer.css");
+@import url("/src/css/sections/mobile-nav.css");
 
 * {
   margin: 0;

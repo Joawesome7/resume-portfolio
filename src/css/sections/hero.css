@@ -4,9 +4,9 @@
   text-align: center;
   /* border: 1px solid #AFB5AD; */
   border-bottom: 1px solid #AFB5AD;
-  max-width: 1519px;
+  min-width: 100%;
 }
 
 .hero__title {
-  font-size: 60px;
+  font-size: 4rem;
 }
