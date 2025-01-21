@@ -1,64 +1,39 @@
-.skills {
-  height: 50%;
-  min-width: 100%;
-
-  /* border: 1px solid #AFB5AD; */
-  border-top: 1px solid #AFB5AD;
-
-  padding: 30px;
-}
-
-.skills h2 {
-  margin-top: 10px;
-  padding-left: 60px;
-  font-size: 30px;
-}
-
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 
-  height: 30vh;
+  /* height: 30vh; */
 
   gap: 1rem;
 }
 
 .wrapper article svg {
-  min-width: 70px;
-  min-height: 70px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 @media (max-width: 768px) {
-  .skills h2 {
-    margin-right: 80px;
-    text-align: center;
-  }
-  
   .wrapper {
     flex-wrap: wrap;
   }
 
 
   .wrapper article {
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 20px;
+    min-height: 20px;
   }
 }
 
 @media (max-width: 1024px) {
-  .skills h2 {
-    margin-right: 80px;
-    text-align: center;
-  }
-  
   .wrapper {
     flex-wrap: wrap;
   }
 
 
   .wrapper article {
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 30px;
+    min-height: 30px;
   }
 }
